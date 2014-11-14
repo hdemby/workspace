@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MeloBellies</string>
-    <string name="song_name">Meteor</string>
-    <string name="action_settings">Settings</string>
-    <string name="song_lyric">(none yet)</string>
+    <string name="app_name" translatable="false">MeloBellies</string>
+    <string name="song_name" translatable="false">Meteor</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="song_lyric" translatable="false"></string>
 
 </resources>
