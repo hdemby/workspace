@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name" translatable="false">MeloBellies</string>
+	<string name="song_name" translatable="false">Meteor</string>
+	<string name="action_settings" translatable="false">Settings</string>
+	<string name="song_lyric" translatable="false">
+		It must have been something
+		Promulgated by some well-fed face on the tube
+		Congenially pumping
+		Every hand they shake then rinse with Astro-Lube
+
+		I\'m waiting for the asteroid
+		To splash down and take my lovely dinosaurs
+		I hardly ever leave the house
+		Unless it\'s for a truly noble cause
+
+		Millions are watchin\'
+		Bracing for their hero\'s fall -- love seeing the crash
+		When they could be shoppin\'
+		For the new distraction -- baby, better cough up the cash
+
+		While I stand midst the ruins
+		Count the years we spent so carefully stacking the cards
+		And the slightest of movements
+		Brought them down -- now even Jesus gotta rake his own yard
+
+		[refrain]
+
+		And it musta meant something
+		Through my generosity -- the mortal coil of Man
+		Now the dog barks at something
+		I chain him up and practice \'til it\'s time to strike up the band
+
+		Now, once in a blue moon
+		I escape the gravity that keeps me in bed
+		And crawl toward the bathroom
+		Fill the tub and shit and thoroughly soak my head
+
+		[refrain]
+	</string>
+	<string name="copyright">
+		Words and Music Copyright © 2010 Joseph North
+		All rights reserved.
+		credits
+		from Plymouth Rock, released 04 July 2012
+		Joseph North (guitar, vocals)
+		Scott Swartzwelder (drums)
+		Hiawatha (bass)
+	</string>
+	string>
+
+</resources>
