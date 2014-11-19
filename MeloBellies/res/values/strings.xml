@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
 	<string name="app_name" translatable="false">MeloBellies</string>
 	<string name="song_name" translatable="false">Meteor</string>
 	<string name="action_settings" translatable="false">Settings</string>
@@ -46,5 +47,11 @@ All rights reserved."
 <string name="string_test" translatable="false">THis is the test\nof newline and the rest\nburma shave!
 </string>
 
+=======
+    <string name="app_name">MeloBellies</string>
+    <string name="song_name">Meteor</string>
+    <string name="action_settings">Settings</string>
+    <string name="song_lyric">(none yet)</string>
+>>>>>>> b0fadad16abd33152d34e3baf08865c47ca3dae8
 
 </resources>
