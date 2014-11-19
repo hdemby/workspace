@@ -12,15 +12,16 @@ import android.view.MenuItem;
 import android.R;
 
 
+@SuppressWarnings({ "unused" })
 public class MainActivity extends ActionBarActivity {
 	
-	MediaPlayer meteorplay;
+	MediaPlayer meteorplay = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_list_item);
-		//meteorplay = MediaPlayer.create(this, R.raw.meteor);
+		/*meteorplay = MediaPlayer.create(this, R.raw.meteor);
 		try {
 			meteorplay.prepare();
 		} catch (IllegalStateException e) {
@@ -30,20 +31,27 @@ public class MainActivity extends ActionBarActivity {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		meteorplay.start();
+		meteorplay.start();*/
 	}
 	
     @Override
 	protected void onResume() {
-		meteorplay.start();
+		//.start();
 		super.onResume();
 	}	
 
     @Override
     protected void onPause() {
-		
+		//meteorplay.pause();
 	    super.onPause();
 }
+    
+    @Override
+    protected void onStop() {
+    	// TODO Auto-generated method stub
+    	//meteorplay.stop();
+    	super.onStop();
+    }
 
 	@Override
     public boolean onOptionsItemSelected(MenuItem item) {

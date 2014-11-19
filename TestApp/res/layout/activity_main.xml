@@ -15,6 +15,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
         android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         android:inputType="textMultiLine"
         android:scrollbars="vertical"
         android:text="@string/content_main" >
@@ -29,10 +31,27 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
+        android:clickable="false"
         android:contentDescription="@string/app_name"
         android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         android:inputType="text"
         android:text="@string/hello_world"
         android:textColor="#7f7fff" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="portrait mode" />
 
 </RelativeLayout>

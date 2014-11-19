@@ -37,4 +37,18 @@
         android:text="@string/hello_world"
         android:textColor="#7f7fff" />
 
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/orient_view" >
+
+        <requestFocus />
+    </EditText>
+
 </RelativeLayout>
