@@ -4,6 +4,9 @@
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
 		<item value="-34" key="DIALOG_X_ORIGIN"/>
 	</section>
+	<section name="EditorSelectionDialog">
+		<item value="false" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="850" key="dialogHeight"/>
 		<item value="1440" key="dialogWidth"/>
@@ -16,10 +19,22 @@
 		<list key="textArray">
 		</list>
 	</section>
+	<section name="NewWizardAction">
+		<item value="com.android.ide.eclipse.editors.wizards.NewActivityWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.android.ide.eclipse.wizards.category"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
 	<section name="ImportExportAction">
+		<item value="com.android.ide.eclipse.adt.project.ExportWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
 		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+			<item value="com.android.ide.eclipse.wizards.category"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="com.android.ide.eclipse.wizards.category"/>
 		</list>
 	</section>
@@ -38,8 +53,11 @@
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="C:\Users\hdemby\Dropbox\workspace"/>
-			<item value="C:\Users\hdemby\Dropbox\The Melobellies\2012 Plymouth Rock"/>
+			<item value="E:\Downloads"/>
+			<item value="C:\Users\hdemby\Downloads"/>
+			<item value="C:\Users\hdemby\workspace\MeloBellies\res\raw"/>
+			<item value="E:\Downloads\androidapps101_downloads_assignment2-webcontent\webcontent"/>
+			<item value="E:\Downloads\androidapps101_downloads_JavaBook-v2\JavaBook-v2\assets"/>
 		</list>
 	</section>
 </section>
