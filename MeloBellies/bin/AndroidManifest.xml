@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="10"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -16,12 +16,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" 
-<<<<<<< HEAD
             android:configChanges="orientation|screenSize|uiMode">
-=======
-            android:configChanges="orientation|screenSize|uiMode"
-            >
->>>>>>> a88abf8e59bb1966aeed37592c30a2f1e3f15de8
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

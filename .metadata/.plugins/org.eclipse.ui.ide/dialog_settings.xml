@@ -15,7 +15,7 @@
 	</list>
 	<section name="CleanDialogSettings">
 		<item value="500" key="DIALOG_WIDTH"/>
-		<item value="true" key="BUILD_ALL"/>
+		<item value="false" key="BUILD_ALL"/>
 		<item value="true" key="TOGGLE_SELECTED"/>
 		<item value="440" key="DIALOG_HEIGHT"/>
 		<item value="891" key="DIALOG_X_ORIGIN"/>
