@@ -1,3 +1,4 @@
+com.android.ide.eclipse.adt.attrSort=logical
 com.android.ide.eclipse.adt.autoPickTarget=false
 com.android.ide.eclipse.adt.fixLegacyEditors=1
 com.android.ide.eclipse.adt.lintSeverities=ExtraTranslation\=WARNING,GradleCompatible\=WARNING,InvalidPackage\=WARNING,MissingTranslation\=WARNING,NewApi\=WARNING,Orientation\=WARNING
