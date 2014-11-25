@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.coursera.melobellies.R.styleable"/>
-<fullyQualifiedTypeName name="android.media.MediaPlayer"/>
-<fullyQualifiedTypeName name="com.coursera.melobellies.R.raw"/>
-<fullyQualifiedTypeName name="android.R.raw"/>
-<fullyQualifiedTypeName name="coursera.mywebapp.R.id"/>
-<fullyQualifiedTypeName name="android.R.id"/>
-<fullyQualifiedTypeName name="android.webkit.WebView"/>
-<fullyQualifiedTypeName name="android.net.Uri"/>
-<fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="android.view.View"/>
-<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
-<fullyQualifiedTypeName name="android.content.Intent"/>
-<fullyQualifiedTypeName name="coursera.droidproj2.R.id"/>
-<fullyQualifiedTypeName name="android.widget.EditText"/>
-<fullyQualifiedTypeName name="coursera.cointoss.R.id"/>
+<fullyQualifiedTypeName name="android.support.v7.app.ActionBarActivity"/>
 </qualifiedTypeNameHistroy>
