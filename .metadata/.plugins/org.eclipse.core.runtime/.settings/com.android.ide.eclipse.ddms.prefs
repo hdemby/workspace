@@ -22,6 +22,7 @@ logcat.view.colsize.TID=50
 logcat.view.colsize.Tag=107
 logcat.view.colsize.Text=543
 logcat.view.colsize.Time=130
+logcat.view.filters.list=name\: 'emulator', tag\: '', text\: '', pid\: '', app\: '', level\: 'error', 
 threadPanel.Col0=32
 threadPanel.Col1=44
 threadPanel.Col2=72

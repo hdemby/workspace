@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">DroidProj2</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_worlds" translatable="false">WorldsActivity</string>
+    <string name="title_activity_wocky" translatable="false">WockyActivity</string>
+    <string name="title_activity_nasa" translatable="false">NasaActivity</string>
+    <string name="title_activity_roundball" translatable="false">RoundballActivity</string>
+
+</resources>

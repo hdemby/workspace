@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.coursera.melobellies.R.styleable"/>
-<fullyQualifiedTypeName name="android.media.MediaPlayer"/>
-<fullyQualifiedTypeName name="com.coursera.melobellies.R.raw"/>
-<fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.R.raw"/>
+<fullyQualifiedTypeName name="android.support.v7.app.ActionBarActivity"/>
 </qualifiedTypeNameHistroy>
