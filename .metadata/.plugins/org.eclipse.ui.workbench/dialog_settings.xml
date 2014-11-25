@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-<<<<<<< HEAD
-	<section name="FileSystemImportWizard">
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
-		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="C:\Users\hdemby\Dropbox\workspace"/>
-			<item value="C:\Users\hdemby\Dropbox\The Melobellies\2012 Plymouth Rock"/>
-		</list>
-=======
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="9" key="DIALOG_Y_ORIGIN"/>
-		<item value="-25" key="DIALOG_X_ORIGIN"/>
-	</section>
-	<section name="EditorSelectionDialog">
-		<item value="false" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
->>>>>>> 0135ad5fba80843559f7c26649ecde7175c095d4
-	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="960" key="dialogWidth"/>
 		<item value="550" key="dialogHeight"/>
@@ -24,70 +7,15 @@
 		</list>
 		<list key="textArray">
 		</list>
-<<<<<<< HEAD
 		<list key="orderedElements">
 		</list>
 		<list key="textEntries">
 		</list>
 	</section>
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="9" key="DIALOG_Y_ORIGIN"/>
-		<item value="-73" key="DIALOG_X_ORIGIN"/>
-	</section>
-	<section name="ShowViewDialog">
-		<item value="311" key="DIALOG_WIDTH"/>
-		<item value="com.android.ide.eclipse.ddms.views.EmulatorControlView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
-		<item value="201" key="DIALOG_Y_ORIGIN"/>
-=======
-	</section>
-	<section name="NewWizardAction">
-		<item value="com.android.ide.eclipse.editors.wizards.NewActivityWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.android.ide.eclipse.wizards.category"/>
-		</list>
-	</section>
-	<section name="FileSystemExportWizard">
-	</section>
 	<section name="ImportExportAction">
-		<item value="com.android.ide.eclipse.adt.project.ExportWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
-		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="com.android.ide.eclipse.adt.project.ImportProjectWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
 			<item value="com.android.ide.eclipse.wizards.category"/>
-		</list>
-		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
-			<item value="com.android.ide.eclipse.wizards.category"/>
-		</list>
-	</section>
-	<section name="ShowViewDialog">
-		<item value="311" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="com.android.ide.eclipse.ddms.views.LogCatView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
->>>>>>> 0135ad5fba80843559f7c26649ecde7175c095d4
-		<item value="438" key="DIALOG_HEIGHT"/>
-		<item value="616" key="DIALOG_X_ORIGIN"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.android.ide.eclipse.ddms.views.category"/>
-		</list>
-	</section>
-<<<<<<< HEAD
-	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
-		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-			<item value="com.android.ide.eclipse.wizards.category"/>
-=======
-	<section name="FileSystemImportWizard">
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="E:\Downloads"/>
-			<item value="C:\Users\hdemby\Downloads"/>
-			<item value="C:\Users\hdemby\workspace\MeloBellies\res\raw"/>
-			<item value="E:\Downloads\androidapps101_downloads_assignment2-webcontent\webcontent"/>
-			<item value="E:\Downloads\androidapps101_downloads_JavaBook-v2\JavaBook-v2\assets"/>
->>>>>>> 0135ad5fba80843559f7c26649ecde7175c095d4
 		</list>
 	</section>
 </section>
