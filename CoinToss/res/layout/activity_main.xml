@@ -9,30 +9,61 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="coursera.cointoss.MainActivity" >
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="60dp"
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/editText3"
-        android:layout_alignLeft="@+id/editText4"
-        android:layout_alignTop="@+id/editText3"
-        android:layout_marginLeft="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_title"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
         android:clickable="false"
-        android:contentDescription="@string/app_title"
         android:ems="10"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:inputType="text"
-        android:text="@string/heads_value"
-        android:textSize="30sp" />
+        android:text="@string/heads_label"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="16dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="@string/tails_label"
+        android:textSize="24sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/editText2"
+        android:contentDescription="@string/app_title"
+        android:scaleType="fitXY"
+        android:src="@drawable/quarter_front" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText5"
-        android:layout_below="@+id/editText5"
-        android:layout_marginLeft="22dp"
+        android:layout_below="@id/editText5"
+
         android:clickable="false"
         android:ems="10"
         android:focusable="false"
@@ -42,74 +73,28 @@
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/editText4"
-        android:layout_width="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_width="60dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/textView1"
-        android:layout_toLeftOf="@+id/button1"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/editText4"
         android:clickable="false"
+        android:contentDescription="@string/app_title"
         android:ems="10"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        android:text="@string/heads_label"
-        android:textSize="24sp" />
-
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_toRightOf="@+id/button1"
-        android:clickable="false"
-        android:ems="10"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:text="@string/tails_label"
-        android:textSize="24sp" />
-
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/editText5"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginTop="76dp"
-        android:clickable="false"
-        android:ems="10"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:inputType="textMultiLine"
-        android:text="@string/app_instruct" />
+        android:inputType="text"
+        android:text="@string/heads_value"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
+        android:layout_below="@id/imageView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="28dp"
         android:onClick="flipCoin"
-        android:text="@string/button_label" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignTop="@+id/editText2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp"
-        android:contentDescription="@string/app_title"
-        android:scaleType="fitXY"
-        android:src="@drawable/quarter_front" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="@string/app_title"
-        android:textSize="36sp" />
+        android:text="@string/app_instruct" />
 
 </RelativeLayout>

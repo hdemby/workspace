@@ -1,9 +1,5 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=a88abf8e59bb1966aeed37592c30a2f1e3f15de8
+>>>>>>>=dd0dcefbeda5d0bc9dc4cf5d35a371f4d34c6a22
 eclipse.preferences.version=1
-<<<<<<< HEAD
-task-tag-projects-already-scanned=android-support-v7-appcompat,appcompat_v7,TestApp,MeloBellies,WebApp1
-=======
-task-tag-projects-already-scanned=android-support-v7-appcompat,appcompat_v7,TestApp,MeloBellies,ClassApp2
->>>>>>> dd0dcefbeda5d0bc9dc4cf5d35a371f4d34c6a22
+task-tag-projects-already-scanned=android-support-v7-appcompat,appcompat_v7,TestApp,MeloBellies,WebApp1,CoinToss
