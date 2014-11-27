@@ -3,6 +3,8 @@
 <fullyQualifiedTypeName name="com.coursera.melobellies.R.styleable"/>
 <fullyQualifiedTypeName name="android.media.MediaPlayer"/>
 <fullyQualifiedTypeName name="com.coursera.melobellies.R.raw"/>
-<fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="android.R.raw"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.id"/>
+<fullyQualifiedTypeName name="android.webkit.WebView"/>
 </qualifiedTypeNameHistroy>
