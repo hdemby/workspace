@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Speed Reader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="window_text">word_from_list</string>
+    <string name="content_text">
+        This text will populate the contents of the reading window. 
+        I may include ont of the class lectures as the content for this app</string>
+    <string name="file_text">This will be the text that is displayed word by word in the reading window. It will eventually be provided by reading a text file stored on the device. The words will be presented one at a time at a set rate of speed with an extra pause at the end of a sentence. I will later add controls to review wind the text to the last sentence. I will also be adding controls to save the text at the current point so the reader can resume at a later time. The ultimate version will provide feedback on reading rate, percentage completed and time spent reading. </string>
+
+</resources>
