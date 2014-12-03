@@ -24,33 +24,6 @@
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/editText5"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_marginLeft="25dp"
-        android:layout_toRightOf="@+id/textView1"
-        android:clickable="false"
-        android:ems="10"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:text="@string/tails_label"
-        android:textSize="24sp" />
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_toLeftOf="@+id/textView1"
-        android:clickable="false"
-        android:ems="10"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:text="@string/heads_label"
-        android:textSize="24sp" />
-
-    <EditText
         android:id="@+id/editText2"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
@@ -87,26 +60,41 @@
         android:scaleType="fitXY"
         android:src="@drawable/quarter_front" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_toRightOf="@+id/imageView1"
-        android:onClick="flipCoin"
-        android:text="@string/button_label" />
-
     <EditText
-        android:id="@+id/editText1"
-        android:layout_width="350dp"
+        android:id="@+id/editText4"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_toLeftOf="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
         android:clickable="false"
         android:ems="10"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:inputType="text"
+        android:text="@string/heads_label"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="@string/tails_label"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:onClick="flipCoin"
         android:text="@string/app_instruct" />
 
 </RelativeLayout>
