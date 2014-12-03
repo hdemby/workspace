@@ -8,19 +8,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="coursera.reader.MainActivity" >
 
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textMultiLine"
+        android:text="@string/content_text"
+        android:visibility="invisible" >
+
+        <requestFocus />
+    </EditText>
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="18dp"
         android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/app_name"
-            android:text="@string/hello_world"
-            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/editText1"
@@ -44,8 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="134dp"
             android:gravity="center|center_vertical"
-            android:orientation="horizontal"
-            android:textAlignment="center" >
+            android:orientation="horizontal" >
 
             <Button
                 android:id="@+id/button1"
@@ -61,7 +72,6 @@
                 android:layout_marginRight="34dp"
                 android:onClick="doStop"
                 android:text="@string/stop_btn" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -79,7 +89,7 @@
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:contentDescription="doSave"
+                android:contentDescription="@string/app_name"
                 android:onClick="doSave"
                 android:text="@string/save_bnt" />
 
@@ -89,24 +99,18 @@
                 android:layout_height="wrap_content"
                 android:onClick="doQuit"
                 android:text="@string/quit_btn" />
-
         </LinearLayout>
-
     </LinearLayout>
 
-    <ProgressBar
-        android:id="@+id/progressBar1"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="256dp"
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/linearLayout1"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:indeterminate="true"
-        android:max="800"
-        android:minHeight="24dp"
-        android:progress="400"
-        android:progressTint="#ff00ff00"
-        android:visibility="visible" />
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/app_name"
+        android:text="@string/hello_world"
+        android:textSize="18sp" />
 
 </RelativeLayout>

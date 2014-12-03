@@ -1,19 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<<<<<<< HEAD
-<fullyQualifiedTypeName name="android.support.v7.app.ActionBarActivity"/>
-<<<<<<< HEAD
-<fullyQualifiedTypeName name="android.R"/>
-=======
-<fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
-<fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.app.Activity"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="android.widget.EditText"/>
-<fullyQualifiedTypeName name="coursera.reader.R.id"/>
-<fullyQualifiedTypeName name="android.util.Log"/>
-=======
-<fullyQualifiedTypeName name="android.R"/>
->>>>>>> 316dcda4dc6289ba2b447767eccc080b0f259e99
->>>>>>> origin/master
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>

@@ -1,13 +1,5 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=dd0dcefbeda5d0bc9dc4cf5d35a371f4d34c6a22
+>>>>>>>=origin/master
 eclipse.preferences.version=1
-<<<<<<< HEAD
-task-tag-projects-already-scanned=android-support-v7-appcompat,appcompat_v7,TestApp,MeloBellies,ClassApp2,CoinToss,Survey-v1,Survey-v6,SpeedReader,Survey-v2,Survey-v5,Imagen-v6
-=======
-<<<<<<< HEAD
-task-tag-projects-already-scanned=android-support-v7-appcompat,appcompat_v7,TestApp,MeloBellies,CoinToss,DroidProj2,JavaBook-v1,JavaBook-v2,JavaBook-v3,MyWebApp,Imagen-v1,SpeedRead
-=======
-task-tag-projects-already-scanned=android-support-v7-appcompat,appcompat_v7,TestApp,MeloBellies,WebApp1,CoinToss
->>>>>>> 316dcda4dc6289ba2b447767eccc080b0f259e99
->>>>>>> origin/master
+task-tag-projects-already-scanned=android-support-v7-appcompat,appcompat_v7,TestApp,MeloBellies,CoinToss,Imagen-v6,Survey-v6,Reader,SpeedReader
