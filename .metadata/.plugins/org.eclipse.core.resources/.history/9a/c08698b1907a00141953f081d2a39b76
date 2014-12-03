@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reader</string>
+    <string name="hello_world">Speed Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="display_text">word</string>
+    <string name="content_text">This will be displayd one word at a time to facilitate speed reading using the spritz method. I may include the text from the course lectures ad selectable content for this app.</string>
+    <string name="start_btn">Start</string>
+    <string name="stop_btn">Stop</string>
+
+</resources>
