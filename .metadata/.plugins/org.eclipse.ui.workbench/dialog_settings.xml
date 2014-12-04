@@ -16,4 +16,14 @@
 		<list key="textArray">
 		</list>
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="com.android.ide.eclipse.wizards.category"/>
+		</list>
+	</section>
+>>>>>>> 08f6ae6de2fc9c6a8d7ca93b688f458284c83e5d
 </section>

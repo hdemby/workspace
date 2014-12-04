@@ -13,7 +13,12 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+<<<<<<< HEAD
 //.metadata\\*
+=======
+.metadata\\*
+.profile\\*
+>>>>>>> 08f6ae6de2fc9c6a8d7ca93b688f458284c83e5d
 
 # =========================
 # Operating System Files

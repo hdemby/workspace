@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Speed Reader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="content_text">
+        This is text to populate the contents of the reading window. 
+        I may include ont of the class lectures as the content for this app</string>
+
+</resources>

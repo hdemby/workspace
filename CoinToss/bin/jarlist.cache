@@ -2,9 +2,7 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 <<<<<<< HEAD
-1416194421935 987314 9b6a9a9078af571732159b904ad423b03b7cc786 C:\Users\hdemby\workspace\appcompat_v7\libs\android-support-v4.jar
-1416722959008 987314 9b6a9a9078af571732159b904ad423b03b7cc786 C:\Users\hdemby\workspace\CoinToss\libs\android-support-v4.jar
+1416876396634 987314 9b6a9a9078af571732159b904ad423b03b7cc786 C:\Users\hdemby\workspace\CoinToss\libs\android-support-v4.jar
+1416439337971 987314 9b6a9a9078af571732159b904ad423b03b7cc786 C:\Users\hdemby\workspace\appcompat_v7\libs\android-support-v4.jar
 =======
-1417059564296 987314 9b6a9a9078af571732159b904ad423b03b7cc786 D:\workspace\CoinToss\libs\android-support-v4.jar
-1416627818552 987314 9b6a9a9078af571732159b904ad423b03b7cc786 D:\workspace\appcompat_v7\libs\android-support-v4.jar
->>>>>>> 316dcda4dc6289ba2b447767eccc080b0f259e99
+>>>>>>> 08a97a81b56599c6049537992f3a361bca862b29

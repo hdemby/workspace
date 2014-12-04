@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <qualifiedTypeNameHistroy/>
+=======
+<<<<<<< HEAD
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.support.v7.app.ActionBarActivity"/>
+<fullyQualifiedTypeName name="android.R"/>
+</qualifiedTypeNameHistroy>
+=======
+<qualifiedTypeNameHistroy/>
+>>>>>>> 08a97a81b56599c6049537992f3a361bca862b29
+>>>>>>> 08f6ae6de2fc9c6a8d7ca93b688f458284c83e5d

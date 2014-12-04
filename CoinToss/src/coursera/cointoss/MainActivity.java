@@ -1,5 +1,6 @@
 package coursera.cointoss;
 
+import android.R;
 import android.support.v7.app.ActionBarActivity;
 
 import android.content.Intent;

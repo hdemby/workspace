@@ -22,7 +22,14 @@
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="2" key="pageIndex"/>
+		<item value="3" key="pageIndex"/>
+<<<<<<< HEAD
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="400" key="height"/>
+		<item value="600" key="width"/>
+=======
+>>>>>>> 08a97a81b56599c6049537992f3a361bca862b29
 	</section>
 	<section name="JavaSearchPage">
 		<item value="1" key="HISTORY_SIZE"/>
