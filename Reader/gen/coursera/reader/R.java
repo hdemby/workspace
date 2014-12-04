@@ -1829,21 +1829,13 @@ containing a value of this type.
         public static final int hello_world=0x7f0a0011;
         public static final int load_btn=0x7f0a0017;
         public static final int quit_btn=0x7f0a0019;
+        public static final int restart_msg=0x7f0a001a;
         public static final int save_bnt=0x7f0a0018;
         public static final int start_btn=0x7f0a0015;
         public static final int stop_btn=0x7f0a0016;
     }
     public static final class style {
         /** 
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
@@ -1855,11 +1847,15 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0b00eb;
-        /**  Application theme. 
+        public static final int AppBaseTheme=0x7f0b00ec;
+        /** 
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    
+ Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f0b00ec;
+        public static final int AppTheme=0x7f0b00eb;
         public static final int Base_TextAppearance_AppCompat=0x7f0b0098;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b00a3;
         public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b00a2;

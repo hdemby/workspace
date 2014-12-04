@@ -458,11 +458,12 @@ int string display_text 0x7f0a0013
 int string hello_world 0x7f0a0011
 int string load_btn 0x7f0a0017
 int string quit_btn 0x7f0a0019
+int string restart_msg 0x7f0a001a
 int string save_bnt 0x7f0a0018
 int string start_btn 0x7f0a0015
 int string stop_btn 0x7f0a0016
-int style AppBaseTheme 0x7f0b00eb
-int style AppTheme 0x7f0b00ec
+int style AppBaseTheme 0x7f0b00ec
+int style AppTheme 0x7f0b00eb
 int style Base_TextAppearance_AppCompat 0x7f0b0098
 int style Base_TextAppearance_AppCompat_Body1 0x7f0b00a3
 int style Base_TextAppearance_AppCompat_Body2 0x7f0b00a2

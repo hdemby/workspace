@@ -19,24 +19,4 @@
 			<item value="com.android.ide.eclipse.wizards.category"/>
 		</list>
 	</section>
-	<section name="ShowViewDialog">
-		<item value="311" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-<<<<<<< HEAD
-		<item value="com.android.ide.eclipse.ddms.views.DeviceView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
-		<item value="438" key="DIALOG_HEIGHT"/>
-		<item value="685" key="DIALOG_X_ORIGIN"/>
-		<item value="172" key="DIALOG_Y_ORIGIN"/>
-		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.ui"/>
-=======
-		<item value="com.android.ide.eclipse.adt.internal.lint.LintViewPart" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
-		<item value="438" key="DIALOG_HEIGHT"/>
-		<item value="357" key="DIALOG_X_ORIGIN"/>
-		<item value="92" key="DIALOG_Y_ORIGIN"/>
-		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
->>>>>>> origin/master
-			<item value="com.android.ide.eclipse.ddms.views.category"/>
-		</list>
-	</section>
 </section>
