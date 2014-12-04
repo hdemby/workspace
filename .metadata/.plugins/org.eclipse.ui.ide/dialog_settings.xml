@@ -15,11 +15,11 @@
 	</list>
 	<section name="CleanDialogSettings">
 		<item value="500" key="DIALOG_WIDTH"/>
-		<item value="false" key="BUILD_ALL"/>
+		<item value="true" key="BUILD_ALL"/>
 		<item value="true" key="TOGGLE_SELECTED"/>
 		<item value="440" key="DIALOG_HEIGHT"/>
-		<item value="542" key="DIALOG_X_ORIGIN"/>
-		<item value="241" key="DIALOG_Y_ORIGIN"/>
+		<item value="574" key="DIALOG_X_ORIGIN"/>
+		<item value="220" key="DIALOG_Y_ORIGIN"/>
 		<item value="true" key="BUILD_NOW"/>
 	</section>
 	<section name="ExternalProjectImportWizard">

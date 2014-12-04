@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">Coin Toss</string>
-    <string name="app_title">CoinToss</string>
-    <string name="action_settings">Settings</string>
-    <string name="app_instruct">Press the button to toss the coin</string>
-
-</resources>

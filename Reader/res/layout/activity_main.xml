@@ -25,34 +25,39 @@
         <requestFocus />
     </EditText>
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/app_name"
+        android:text="@string/hello_world"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/display_text"
+        android:textColor="#ff000000"
+        android:textSize="30sp" />
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
         android:orientation="vertical" >
-
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="63dp"
-            android:background="#ffffffff"
-            android:clickable="false"
-            android:ems="10"
-            android:focusable="false"
-            android:focusableInTouchMode="false"
-            android:inputType="text"
-            android:text="@string/display_text"
-            android:textAlignment="center"
-            android:textColor="#ff000000"
-            android:textSize="30sp" />
 
         <LinearLayout
             android:id="@+id/linearLayout2"
-            android:layout_width="185dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="134dp"
             android:gravity="center|center_vertical"
@@ -75,7 +80,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
             <Button
@@ -101,16 +106,5 @@
                 android:text="@string/quit_btn" />
         </LinearLayout>
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:contentDescription="@string/app_name"
-        android:text="@string/hello_world"
-        android:textSize="18sp" />
 
 </RelativeLayout>

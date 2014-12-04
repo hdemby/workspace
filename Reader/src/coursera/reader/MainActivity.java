@@ -1,32 +1,31 @@
 package coursera.reader;
 
 
-import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.TextureView;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
-	EditText mdisplay;
-	//EditText intext;
+	TextView mdisplay;
+	EditText intext;
 	String outtext;
 	String mword;
 	String[] wordlist;
-	Integer count;
+	Integer count = 0;
+	String word1;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		mdisplay = (EditText) findViewById(R.id.editText1);
+		mdisplay = (TextView) findViewById(R.id.textView2);
 		
 	}
 
@@ -40,17 +39,20 @@ public class MainActivity extends Activity {
 	public void doStart(View v) {
 		// display text in the word view window
 		Log.e("MainActity","doStart");
-		Intent intent = new Intent(Intent.ACTION_VIEW);
+		Intent intent = new Intent(Intent.ACTION_ANSWER);
 		intent.getData();
+		
 		Log.e("MainActity","get the string");
-		EditText intext = new EditText(this);
-		intext = (EditText) findViewById(R.id.editText2);
-		outtext = intext.getText().toString();
+		//outtext = String.valueOf("This is a string");
+		EditText mtext = (EditText) findViewById(R.id.editText2);
+		outtext = mtext.getText().toString();
+				
 		Log.e("MainActity","convert to list");
-		wordlist = outtext.split(" ");
-		Log.e("MainActity","display a character");
-		String text1 = (String) wordlist[count];//(String) getListFromText(); //String.valueOf("Start");
-		mdisplay.setText(text1);
+		wordlist = (String[]) outtext.split(" ");
+		Log.e("MainActity","get word:"+count);
+		word1 = (String) wordlist[count];
+		Log.e("MainActity",word1);
+		mdisplay.setText(word1);
 		Log.e("MainActity","increment the counter");
 		count = count + 1;
 		}	
@@ -62,6 +64,7 @@ public class MainActivity extends Activity {
 	    
 		intent.getData();
 		String text1 = String.valueOf("Stop");
+		count = 0;
 		mdisplay.setText(text1);
 
 	}
@@ -86,6 +89,7 @@ public class MainActivity extends Activity {
 		intent.getData();
 		String text1 = String.valueOf("Load");
 		mdisplay.setText(text1);
+		count = 0;
 
 	}
 
@@ -97,6 +101,7 @@ public class MainActivity extends Activity {
 		intent.getData();
 		String text1 = String.valueOf("Save");
 		mdisplay.setText(text1);
+
 	}
 
 	public void doQuit(View v) {
