@@ -1,23 +1,2 @@
 INDEX VERSION 1.126+C:\Users\hdemby\workspace\.metadata\.plugins\org.eclipse.jdt.core
-<<<<<<< HEAD
-3515282563.index
 1284074322.index
-4191634435.index
-634370968.index
-=======
-<<<<<<< HEAD
-633016916.index
-3515282563.index
-1284074322.index
-1811439928.index
-4191634435.index
-3979862886.index
-634370968.index
-=======
-4191634435.index
-3515282563.index
-634370968.index
-1284074322.index
-55079188.index
->>>>>>> 08a97a81b56599c6049537992f3a361bca862b29
->>>>>>> 08f6ae6de2fc9c6a8d7ca93b688f458284c83e5d

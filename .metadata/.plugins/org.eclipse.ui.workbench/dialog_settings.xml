@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="184" key="DIALOG_X_ORIGIN"/>
-		<item value="14" key="DIALOG_Y_ORIGIN"/>
-	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="850" key="dialogHeight"/>
 		<item value="1440" key="dialogWidth"/>
@@ -16,8 +12,6 @@
 		<list key="textArray">
 		</list>
 	</section>
-<<<<<<< HEAD
-=======
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
@@ -25,5 +19,15 @@
 			<item value="com.android.ide.eclipse.wizards.category"/>
 		</list>
 	</section>
->>>>>>> 08f6ae6de2fc9c6a8d7ca93b688f458284c83e5d
+	<section name="ShowViewDialog">
+		<item value="311" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="com.android.ide.eclipse.adt.internal.lint.LintViewPart" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="357" key="DIALOG_X_ORIGIN"/>
+		<item value="92" key="DIALOG_Y_ORIGIN"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.android.ide.eclipse.ddms.views.category"/>
+		</list>
+	</section>
 </section>

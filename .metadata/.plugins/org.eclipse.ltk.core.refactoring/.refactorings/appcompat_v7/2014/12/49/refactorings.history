@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<session version="1.0">
-<refactoring comment="Copy element &apos;android-support-v4.jar&apos; to &apos;libs&apos;&#x0D;&#x0A;- Original project: &apos;appcompat_v7&apos;&#x0D;&#x0A;- Destination element: &apos;libs&apos;&#x0D;&#x0A;- Original element: &apos;android-support-v4.jar&apos;" description="Copy file" element1="libs/android-support-v4.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1417554523916" target="/SpeedReader/libs" units="0" version="1.0"/>
-=======
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;appcompat_v7/libs/android-support-v4.jar&apos; to &apos;android-support-v4_2.jar&apos;" description="Rename resource &apos;android-support-v4.jar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="libs/android-support-v4.jar" name="android-support-v4_2.jar" stamp="1417563323071" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;appcompat_v7/libs/android-support-v4_2.jar&apos; to &apos;android-support-v4.jar&apos;" description="Rename resource &apos;android-support-v4_2.jar&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="libs/android-support-v4_2.jar" name="android-support-v4.jar" stamp="1417563422100" updateReferences="true"/>
->>>>>>> origin/master
-</session>
