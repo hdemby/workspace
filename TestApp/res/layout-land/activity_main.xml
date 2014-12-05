@@ -41,12 +41,22 @@
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
         android:ems="10"
         android:inputType="text"
         android:text="@string/orient_view" >
+=======
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginRight="122dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/label_landscape" >
+>>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca
 
         <requestFocus />
     </EditText>

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="com.coursera.melobellies.R.styleable"/>
 <fullyQualifiedTypeName name="com.coursera.melobellies.R.raw"/>
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="android.media.MediaPlayer"/>
 <fullyQualifiedTypeName name="android.R.raw"/>
+=======
+<fullyQualifiedTypeName name="com.example.simpletimer.R.id"/>
+<fullyQualifiedTypeName name="android.R"/>
+>>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca
 </qualifiedTypeNameHistroy>

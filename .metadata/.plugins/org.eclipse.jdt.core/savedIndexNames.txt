@@ -16,13 +16,17 @@ INDEX VERSION 1.126+C:\Users\hdemby\Documents\GitHub\workspace\.metadata\.plugin
 3952660581.index
 =======
 INDEX VERSION 1.126+C:\Users\hdemby\workspace\.metadata\.plugins\org.eclipse.jdt.core
-1284074322.index
+1895203762.index
+3515282563.index
 1940664333.index
-4191634435.index
 634370968.index
+<<<<<<< HEAD
 3158648900.index
 3979862886.index
 3515282563.index
 3946179868.index
 633016916.index
 >>>>>>> b0fadad16abd33152d34e3baf08865c47ca3dae8
+=======
+1284074322.index
+>>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca

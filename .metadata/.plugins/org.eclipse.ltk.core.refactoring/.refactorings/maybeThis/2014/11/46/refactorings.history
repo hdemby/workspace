@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy source folder &apos;src&apos; to &apos;VanRossum&apos;&#x0D;&#x0A;- Original project: &apos;maybeThis&apos;&#x0D;&#x0A;- Destination element: &apos;VanRossum&apos;&#x0D;&#x0A;- Original element: &apos;maybeThis/src&apos;" description="Copy source folder" element1="/src" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1415856406401" target="/VanRossum" version="1.0"/>
-</session>

@@ -47,11 +47,17 @@
         android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="81dp"
+<<<<<<< HEAD
         android:clickable="false"
         android:ems="10"
         android:focusable="false"
         android:focusableInTouchMode="false"
         android:inputType="text"
         android:text="portrait mode" />
+=======
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/label_portrait" />
+>>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca
 
 </RelativeLayout>

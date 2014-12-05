@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="9" key="DIALOG_Y_ORIGIN"/>
-		<item value="-34" key="DIALOG_X_ORIGIN"/>
-	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="850" key="dialogHeight"/>
 		<item value="1440" key="dialogWidth"/>
@@ -19,11 +15,13 @@
 	<section name="NewWizardAction">
 	</section>
 	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="com.android.ide.eclipse.adt.project.ExportWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="com.android.ide.eclipse.wizards.category"/>
 		</list>
+<<<<<<< HEAD
 	</section>
 	<section name="ShowViewDialog">
 		<item value="311" key="DIALOG_WIDTH"/>
@@ -46,6 +44,10 @@
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
 			<item value="C:\Users\hdemby\Dropbox\workspace"/>
 			<item value="C:\Users\hdemby\Dropbox\The Melobellies\2012 Plymouth Rock"/>
+=======
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="com.android.ide.eclipse.wizards.category"/>
+>>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca
 		</list>
 	</section>
 </section>

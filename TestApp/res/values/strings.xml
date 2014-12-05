@@ -5,7 +5,12 @@
     <string name="hello_world" translatable="false">Hello Android Developer!</string>
     <string name="action_settings" translatable="false">Settings</string>
     <string name="content_main" translatable="false">The only purpose for this app is to test import into an Android SDK emulator instance.</string>
+<<<<<<< HEAD
     <string name="orient_view">landacape mode</string>
 
+=======
+    <string name="label_landscape" translatable="false">Landscape Mode</string>
+    <string name="label_portrait" translatable="false">Portrait Mode</string>
+>>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca
 
 </resources>
