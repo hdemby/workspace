@@ -14,7 +14,16 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-//.metadata\\*
+#==========================
+# Eclipse soecific
+#==========================
+#.metadata\\.plugins\\
+*.snap
+*.prefs
+*.markers
+*.tree
+*.log
+//.metadata/.plugins/org.eclipse.core.resources/
 
 # =========================
 # Operating System Files
@@ -28,7 +37,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
@@ -26,6 +27,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		mdisplay = (TextView) findViewById(R.id.textView2);
+		Toast.makeText(getApplicationContext(), R.string.restart_msg, Toast.LENGTH_LONG).show();
 		
 	}
 
@@ -63,9 +65,10 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(Intent.ACTION_VIEW);
 	    
 		intent.getData();
-		String text1 = String.valueOf("Stop");
+		String text1 = String.valueOf("-- begin --");
 		count = 0;
 		mdisplay.setText(text1);
+		Toast.makeText(getApplicationContext(), R.string.restart_msg, Toast.LENGTH_LONG).show();
 
 	}
 	
@@ -111,7 +114,9 @@ public class MainActivity extends Activity {
 	    
 		intent.getData();
 		String text1 = String.valueOf("Quit");
-		mdisplay.setText(text1);
+		//mdisplay.setText(text1);
+		finish();
+		System.exit(0);
 
 	}
 
