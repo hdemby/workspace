@@ -23,8 +23,9 @@ public class MainActivity extends ActionBarActivity {
 	private long reftime = 0L;		// time from start of application
 	private long pausetime = 0L;	// store reading time here
 	private long ratetime = 0L;		// reference time for wordrate in 10ths of a second
+	private long oldtime = 0L;		// temp storage for rate time interval
 	private int count = 0;			// simple counter value
-	private int wpmrate = 200;		// default words per sec ~= 200wpm
+	private int wpmrate = 240;			// default words per sec ~= 200wpm
 	private int mspword;			// miliseconds per count for word rate
 	private int wordcount = 0;		// the number of words in the text source
 	private boolean paused = false;	// paused state
@@ -58,9 +59,15 @@ public class MainActivity extends ActionBarActivity {
 		wordlist = outtext.split(" ");
 		wordcount = wordlist.length;
 		Log.e("onCreate","length of wordlist: "+ wordcount);
+		String ratetxt = (String) findViewById(R.id.textView8).toString(); // get rate value from view
+		Log.e("onCreate","rate text: "+ ratetxt); 
+		//Integer rateval = (Integer) Integer.parseInt(ratetxt);
+		//Log.e("onCreate","rate val: "+ rateval);
+		//wpmrate = rateval;
+		//Log.e("onCreate","desired word rate: "+ wpmrate);
 		
 		Log.e("onCreate","wpmrate :"+ wpmrate);
-		mspword = (int) ((int) 1 / (wpmrate / (60 * 1000.0)));
+		mspword = (int) ( 1 / ((float)(wpmrate) / 60 ) * 1000.0);  // calculate milliseconds per word
 		Log.e("onCreate","mspword :"+ mspword);
 		
 		Log.e("onCreate","set 'showtime' view...");
@@ -170,7 +177,7 @@ public class MainActivity extends ActionBarActivity {
 		public void run() {
 			final String timestr;
 			msectime = SystemClock.uptimeMillis() - reftime;
-			ratetime += msectime;
+			ratetime = msectime - oldtime;
 			// count is used as an index for the text list
 			try {
 				mdisplay.setText(wordlist[count]);
@@ -212,9 +219,14 @@ public class MainActivity extends ActionBarActivity {
 				if ( ! paused) {
 					count += 1;
 					ratetime = 0L;
+					oldtime = msectime;
+					Log.e("runninge","new ratetime: " + ratetime);
+					} else {
+						Log.e("runninge","milliseconds: " + ratetime);
+						oldtime = ratetime;
 					}
 			}
-			Log.e("runninge","milliseconds: " + ratetime);
+			
 
 			myhandler.postDelayed(this,0);
 			}

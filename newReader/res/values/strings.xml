@@ -10,7 +10,7 @@
     <string name="hidetxt_btn">Hide Text</string>
     <string name="showtxt_btn">Show Text</string>
     <string name="show_time">00:00:00</string>
-    <string name="show_rate">200 wpm</string>
+    <string name="show_rate">120</string>
     <string name="show_progress">0%</string>
     <string name="source_label">Text Source</string>
     <string name="time_label">Reading Time</string>
