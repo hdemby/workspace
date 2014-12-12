@@ -8,6 +8,21 @@
 <fullyQualifiedTypeName name="android.R.raw"/>
 =======
 <fullyQualifiedTypeName name="com.example.simpletimer.R.id"/>
+<fullyQualifiedTypeName name="android.R.menu"/>
+<fullyQualifiedTypeName name="coursera.simplecounter.R.id"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+<fullyQualifiedTypeName name="android.os.SystemClock"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.R"/>
+<<<<<<< HEAD
 >>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca
+=======
+<fullyQualifiedTypeName name="cousera.newreader.R.id"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+>>>>>>> 63bff649afd7bdb3330e9f75a5c52844fd956fc7
 </qualifiedTypeNameHistroy>

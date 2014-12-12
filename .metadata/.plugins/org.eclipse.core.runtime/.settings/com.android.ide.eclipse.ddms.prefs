@@ -19,11 +19,22 @@ lastImageSaveDir=C\:\\Users\\hdemby\\Dropbox\\workspace
 logcat.view.colsize.Application=203
 =======
 lastImageSaveDir=G\:\\Dropbox\\Apps
+<<<<<<< HEAD
 logcat.view.colsize.Application=143
 >>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca
+=======
+logcat.view.colsize.Application=123
+>>>>>>> 63bff649afd7bdb3330e9f75a5c52844fd956fc7
 logcat.view.colsize.Level=29
 logcat.view.colsize.PID=50
 logcat.view.colsize.TID=50
-logcat.view.colsize.Tag=107
+logcat.view.colsize.Tag=112
 logcat.view.colsize.Text=543
-logcat.view.colsize.Time=130
+logcat.view.colsize.Time=141
+threadPanel.Col0=32
+threadPanel.Col1=44
+threadPanel.Col2=72
+threadPanel.Col3=45
+threadPanel.Col4=45
+threadPanel.Col5=280
+threadPanel.stack.col0=515

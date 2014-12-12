@@ -17,10 +17,14 @@
 		<item value="500" key="DIALOG_WIDTH"/>
 		<item value="true" key="BUILD_ALL"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<item value="true" key="TOGGLE_SELECTED"/>
 =======
 		<item value="false" key="TOGGLE_SELECTED"/>
 >>>>>>> 59a7a970f5e455d29257069edf685614e4a774ca
+=======
+		<item value="true" key="TOGGLE_SELECTED"/>
+>>>>>>> 63bff649afd7bdb3330e9f75a5c52844fd956fc7
 		<item value="440" key="DIALOG_HEIGHT"/>
 		<item value="574" key="DIALOG_X_ORIGIN"/>
 		<item value="220" key="DIALOG_Y_ORIGIN"/>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Speed Reader</string>
+    <string name="start_btn">Start</string>
+    <string name="pause_btn">Pause</string>
+    <string name="unpause_btn">Unpause</string>
+    <string name="save_btn">Save</string>
+    <string name="quit_btn">Quit</string>
+    <string name="hidetxt_btn">Hide Text</string>
+    <string name="showtxt_btn">Show Text</string>
+    <string name="show_time">00:00:00</string>
+    <string name="show_rate">120</string>
+    <string name="show_progress">0%</string>
+    <string name="source_label">Text Source</string>
+    <string name="time_label">Reading Time</string>
+  	<string name="rate_label">Reading Rate</string>
+  	<string name="progress_label">Progress</string>
+  
+    <string name="current_word">Welcome</string>
+    <string name="action_settings">Settings</string>
+    <string name="source_text">
+        The content of a text source like this will be displayed one word at a time to facilitate speed reading. 
+        This is a proof of concept and it worked out pretty well in the time I had to develop it. This version 
+        will display this pre-loaded text document but hopefully the user will be able to load any stored text 
+        document for reading in the near future. Currently a \'Toast\' will indicate 
+        different states while running this app to help identify  events such as \'resume\' and \'end-of-file\'.
+The principle is simply to present a text document in a stable display, one word at a time at a pre-determined 
+rate. You may be surprised at how well you are able to understand the text even at this current rate! I\'m still
+working on gaining more precise control of this parameter. The app uses multiple layouts, TextViews, EditViews,
+onClickListeners and the SystemClock. The backgroung of the displayed word is a bitmap resource. The key function was
+converting the text into a list of words. We have not covered Java arrays from what I remember. Each word will be 
+displayed in the center of the fixed width high contrast window and then replaced after a short delay. Eventually 
+periods and punctuations will slightly extended the word display interval to help with pacing and concentration 
+and comprehension. Tabs will be used to determine paragraphs. That will possibly require that 
+text documents be formatted before use inside or outside of this app. Unfortunately this application runs very 
+erratically on an emulator so any pacing features would be useless. I found it difficult to force the reading 
+window to remain centered and provide a high contrast background that did not change size based on the displayed 
+text size. There are already products like this in the market place, so this app may not be developed far 
+beyond the needs for this class. However it was a challenging project to complete even with the 
+features that I was able to add. Thanks to Lawrence Angrave for his guidance through this difficult material. 
+I don\'t think I would have had a prayer of creating this app if it had not been for this class. I hope to later 
+add controls to provide the ability to pause, save and rewind the text to the previous sentence if needed. 
+Future enhancements include a save function will allow the reader to save their current position and resume 
+reading at later sessions, even after exiting the program. I also hope to add better feedback controls for 
+reporting percentage progress through the text, time spent reading, and the current reading rate. I also 
+want to make the word rate adjustable by the user. If I have the time I would like to add a file chooser 
+to allow the user to load any text documents available on their Android device. Not all documents will be able 
+to display without some conditioning, but that could be and activity launched by this app in a future version. 
+Wouldn\'t it be cool to read the class lecture transcripts with an app like this? Perhaps I can even figure 
+out a way to save  multiple document sessions with the current reading position 
+rounded to the previous sentence or paragraph. There are a lot of possibilities for neat features to add to 
+this app, especially if I were to turn this into a paid app in the marketplace. But time is short and the 
+deadline is near. I\'m afraid this will have to do.
+        </string>
+
+</resources>
