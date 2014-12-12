@@ -34,6 +34,7 @@ public class MainActivity extends Activity {
         btnstart = (Button) findViewById(R.id.button1);
         btnstart.setOnClickListener(new View.OnClickListener(){
 
+			@Override
 			public void onClick(View view) {
 				// TODO Auto-generated method stub
         		tmptime = SystemClock.uptimeMillis();
@@ -43,6 +44,7 @@ public class MainActivity extends Activity {
         
 		btnpause = (Button) findViewById(R.id.button2);
 		btnpause.setOnClickListener(new View.OnClickListener() {
+				@Override
 				public void onClick(View view) {
 					tmptime += milisec;
 					handler.removeCallbacks(updateTimerThread);
@@ -53,7 +55,8 @@ public class MainActivity extends Activity {
     }
 
     private Runnable updateTimerThread = new Runnable(){
-    	public void run() {
+    	@Override
+		public void run() {
     		milisec = SystemClock.uptimeMillis();
     		newtime = milisec;
     		int secs = (int) (newtime / 1000);

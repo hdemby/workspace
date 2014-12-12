@@ -9,7 +9,7 @@
     tools:context="coursera.reader.MainActivity" >
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/fulltext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout1"
@@ -26,7 +26,7 @@
     </EditText>
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/titleview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -37,7 +37,7 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/wordview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/linearLayout1"
@@ -50,7 +50,7 @@
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/titleview"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp"
         android:orientation="vertical" >
@@ -64,14 +64,14 @@
             android:orientation="horizontal" >
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/stepbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="doStart"
                 android:text="@string/start_btn" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/resetbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="34dp"
@@ -84,14 +84,14 @@
             android:layout_height="wrap_content" >
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/loadbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="doLoad"
                 android:text="@string/load_btn" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/savebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/app_name"
@@ -99,7 +99,7 @@
                 android:text="@string/save_bnt" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/quitbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="doQuit"
